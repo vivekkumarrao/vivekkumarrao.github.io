@@ -1,0 +1,587 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background: #f6f6f6;
+    font-family: Raleway;
+}
+@font-face{
+    font-family:Raleway;
+    src:url(fonts/Raleway-Regular_1.woff); 
+}
+img{
+    max-width: 100%;
+    width:auto;
+    height: auto;
+    vertical-align: middle;
+}
+/* ==================================main page of index========================================= */
+main{
+    width:100%;
+    height: auto;
+    background: #000;
+}
+/* ==================================header page of index========================================= */
+header{
+    width:1400px;
+    height:100px;
+    margin: auto;
+}
+.logo{
+    width:calc(30% - 10px);
+    height: auto;
+    float: left;
+    margin:20px 0 0 10px;
+}
+
+nav{
+	width:calc(70% - 10px);
+	height:auto;
+	float:right;
+	margin-right:10px;
+}
+nav label{
+	display:none;
+}
+#toggle{
+	display:none;
+}
+#topnavi li{
+	list-style-type:none;
+	float:left;
+	width:20%;
+    text-align:right;
+    
+}
+
+#topnavi a{
+	display:block;
+	text-decoration:none;
+	width:100%;
+    margin-top:40px;
+    color:#fff;
+}
+#topnavi a:hover{
+	text-decoration:underline;
+}
+
+/* ==================================banner page of index========================================= */
+.banner{
+    width:100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+.banner figure{
+    width:500%;
+    height: auto;
+    float: left;
+    position: relative;
+    top:0;
+    left: 0;
+    animation: slide 20s infinite;
+}
+.banner figure img{
+    width: 20%;
+    float: left;
+}
+@keyframes slide{
+    0%{left:0%;}
+    12.5%{left: 0%;}
+    25%{left: -100%;}
+    37.5%{left: -100%;}
+    50%{left: -200%;}
+    62.5%{left: -200%;}
+    75%{left: -300%;}
+    87.5%{left: -300%;}
+    100%{left: -400%;}
+}
+.effect{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top:0%;
+    left:-100%;
+    transition: all 2s;
+    background: rgba(0,0,0,0.5);
+}
+.banner:hover .effect{
+    left: 0;
+}
+.effect h1{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    color: #fff;
+    transform:translate(-50%,-50%);
+}
+
+/* ==================================mid-main page of index========================================= */
+.mid-main{
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    margin:auto;
+}
+
+/* ==================================mid mid page of index========================================= */
+.mid{
+    width:32.16666666666667%;
+    height: auto;
+    float: left;
+    margin-top: 50px;
+}
+.marg1{
+    margin-right: 1%;
+}
+.marg2{
+    margin-right: 2.5%;
+}
+.heading1{
+    margin-bottom: 18px;
+    
+}
+.top-marg{
+    margin-top: 35px;
+}
+.para1{
+    line-height: 30px;
+}
+.marg-right{
+    margin-right: 10px;
+}
+.marg-bot{
+    margin-bottom: 18px;
+}
+/* ==================================second mid page of index========================================= */
+
+.mid2{
+    width: 31.875%;
+    height: auto;
+    margin-top: 50px;
+    float: left;
+}
+.marg3{
+    margin-right: 2.1875%;
+}
+.mid2 img{
+    float: left;
+    margin-right: 15px;
+    margin-bottom:15px;
+}
+.para2{
+    line-height: 30px;
+    margin-bottom:10px;
+}
+.para3{
+    line-height: 25px;
+    margin:14px 0;
+}
+
+
+ footer{
+    width: 100%;
+    height: auto;
+    margin-top:50px;
+    float: left;
+    background: #000;
+}
+.footer1{
+    width:100%;
+	max-width:1400px;
+	height:auto;
+	margin:auto;
+}
+.footer2{
+    width:23.359375%;
+    height: auto;
+    float: left;
+    color:red;
+    padding:20px;
+    color:#fff;
+}
+.footer2 img{
+    float: left;
+    margin: 0 10px 10px 0px;
+}
+.para4{
+    padding-bottom:20px;
+}
+
+/* ====================================copy page of index============================== */
+.hr{
+	width:100%;
+	height:auto;
+	float:left;
+    color:#fff;
+    margin-top: 10px;
+}
+
+.copy2{
+	float:left;
+	color:#fff;
+	padding:15px;
+}
+.social{
+	float:right;
+	padding-top:15px;
+	padding-right:10px;
+}
+.size2{
+	font-size:25px;
+	color:#fff;
+	margin-right:5px;
+}
+/* =========================about page start here============================= */
+.box{
+    width:48%;
+    height: auto;
+    float: left;
+    background:pink;
+    padding:20px;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.para11{
+    margin-top: 15px;
+    line-height: 30px;
+}
+.color1{background: #f67c78;}
+.color2{background: #a1bd60;}
+.color3{background: #64c29e;}
+.color4{background: #d7bb5b;}
+.head-ab{
+    width: 100%;
+    height: auto;
+    float: left;
+    padding:10px 0;
+    margin-top:50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.box img{
+    float: left;
+    margin-right: 10px;
+}
+.padd{
+    padding: 0;
+}
+.box img{
+    transition: all 0.8s;
+}
+.box:hover img{
+    transform:scale(1.2);
+}
+.style{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:-100%;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    transition: all 1s;
+}
+.style1{
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+}
+.box:hover .style{
+    top:0;
+}
+
+
+/* =========================training page start here============================= */
+.box2{
+    width:23.359375%;
+    height: auto;
+    float: left;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+
+}
+.box2 img{
+    transition: all 0.8s;
+}
+.box2:hover img{
+    transform:scale(1.2);
+}
+.box2:hover .style{
+    top:0;
+}
+.para-tr{
+    line-height: 36px;
+}
+/* =========================contact page start here============================= */
+.box iframe{
+    vertical-align: middle;
+    transition: all 1s;
+    position: relative;
+    overflow: hidden;
+}
+.box:hover iframe{
+    transform: scale(1.5);
+}
+
+
+.color-con{
+	background:none;
+}
+.input{
+	width:95%;
+	height:35px;
+	border:1px solid rgba(0,0,0,0.5);
+	border-radius:5px;
+	padding:5px;
+}
+.input2{
+	height:155px;
+}
+
+.input3{
+	width:80px;
+	height:40px;
+	background:rgba(0,0,0,0.8);
+	color:#fff;
+	font-size:18px;
+}
+.para-con{
+	margin-top:15px;
+}
+
+.icon{
+	text-align:center;
+	margin-bottom:20px;
+}
+.size{
+    font-size:40px;
+    margin-top: 20px;
+}
+
+
+
+/* =========================media query of width:480px============================= */
+/* =========================Phone of width:480============================= */
+
+@media only screen and (max-width:480px){   
+    nav{
+		width:100%;
+		height:auto;
+		float:left;
+		color:white;
+		position:absolute;
+		left:0;
+	}
+	nav label{
+		display:block;
+		float:right;
+		width:auto;
+		padding:10px;
+		background-color:black;
+		position:relative;
+		right:10px;
+		top:30px;
+	}
+	#topnavi li{
+		list-style-type:none;
+		float:left;
+		width:100%;
+		text-align:right;
+	}
+	#topnavi a{
+		display:block;
+		text-decoration:none;
+		width:100%;
+		color:black;
+		padding:20px;
+		border-bottom:1px solid red;
+		background-color:rgba(0,0,0,0.8);
+		color:#fff;
+		margin-top:0px;
+	}
+	.menu{
+		width:100%;
+		color:pink;
+		z-index:99999999;
+		top:65px;
+		position:relative;
+		display:none;
+	} 
+	#toggle:checked+.menu{
+		display:block;
+	}
+ /* ==============mid page of index=========== */   
+    .mid-main{
+        width: 96%;
+    }
+    .mid{
+        width:100%;
+    }
+    .marg1{
+        margin-right: 0%;
+    }
+    .marg2{
+        margin-right: 0%;
+    }
+    .top-ph{
+        margin-top: 50px;
+    }
+/* ==============second mid page of index=========== */
+    .mid2{
+        width: 100%;
+    }
+    .marg3{
+        margin-right: 0%;
+    }
+    .mid2 span{
+        display: none;
+    }
+/* ==============footer page of index=========== */
+    .footer2{
+        width:100%;
+    }
+
+
+
+ /* ===================about  page start================== */   
+    .box{
+        width: 100%;
+    }
+    .box span{
+        display: none;
+    }
+
+ /* ===================training  page start================== */
+    .box2{
+        width: 100%;
+    }
+
+}
+
+
+
+
+/* =========================media query of min-width:481px and max-width:768============================= */
+/* =========================tabb of width:768============================= */
+@media screen and (min-width:481px) and (max-width:768px){
+    nav{
+		width:100%;
+		height:auto;
+		float:left;
+		color:white;
+		position:absolute;
+		left:0;
+	}
+	nav label{
+		display:block;
+		float:right;
+		width:auto;
+		padding:10px;
+		background-color:black;
+		position:relative;
+		right:10px;
+		top:30px;
+	}
+	#topnavi li{
+		list-style-type:none;
+		float:left;
+		width:100%;
+		text-align:right;
+	}
+	#topnavi a{
+		display:block;
+		text-decoration:none;
+		width:100%;
+		color:black;
+		padding:20px;
+		border-bottom:1px solid red;
+		background-color:rgba(0,0,0,0.8);
+		color:#fff;
+		margin-top:0px;
+	}
+	.menu{
+		width:100%;
+		color:pink;
+		z-index:99999999;
+		top:65px;
+		position:relative;
+		display:none;
+	} 
+	#toggle:checked+.menu{
+		display:block;
+    }
+/* ==============mid page of index=========== */
+    .mid-main{
+        width: 96%;
+    }
+
+    .mid{
+        width:47%;
+    }
+    .marg1{
+        margin-right: 2%;
+    }
+    .mid span{
+        display: none;
+    }
+    .tabb{
+       margin-left:calc(50% - 23.5%);
+    }
+    .top-ph{
+        margin-top: 50px;
+    }
+/* ==============second mid page of index=========== */
+    .mid2{
+        width: 48.5%;
+    }
+    .marg3{
+        margin-right: 0;
+    }
+    .marg11{
+        margin-right: 3%;
+    }
+    .mid2 span{
+        display: none;
+    }
+/* ==============footer mid page of index=========== */
+
+    .footer2{
+        width:48.5%;
+    }
+
+
+/* ===================about  page start================== */   
+    .box{
+        width: 48.5%;
+    }
+
+    /* ===================training  page start================== */
+    .box2{
+        width: 48.5%;
+    }
+
+}
+
+
+
+/* ============================gotop========================== */
+
+html{
+	scroll-behavior:smooth;
+}
+.gotop{
+	position:fixed;
+	bottom:55px;
+	right:10px;
+	background:lightgray;
+	padding:10px;
+}

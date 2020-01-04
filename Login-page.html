@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Using Login Page</title>
+<style>
+*{
+box-sizing:border-box;
+}
+.form{
+    width: 350px;
+	height:auto;
+	margin:auto;
+	border:solid black 2px;
+	border-radius:20px;
+	background-image:linear-gradient(red,blue);
+	}
+	
+	
+
+
+.log{
+height:30px;
+width:200px;
+font-size:15px;
+background-color:pink;
+color:white;
+border-radius:10px;
+margin-bottom:20px;
+
+
+}
+.ur{
+   height:30px;
+   width:195px;
+   border-radius:10px;
+   padding-left:10px;
+}
+
+.cn{
+    text-align:center;
+}
+
+</style>
+</head>
+<body>
+<div class="form">
+
+<form action="send.php" method="post">
+
+<p class="cn"><input class="ur" type="text" name="Name" placeholder="username"></p>
+
+<p class="cn"> <input  class="ur" type=" password" name="pass" placeholder="Password"></p>
+
+<p class="cn" ><input class="log" type="submit" value="L O G I N"/>
+
+<input class="log" type="reset" value="Forget Your Password"/></p>
+</form>
+</div>
+</body>
+</html>
